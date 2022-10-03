@@ -8,11 +8,12 @@
   height: 100vh;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .calculadora{
   position: absolute;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -20,9 +21,22 @@
   padding: 15px;
 
 }
+#resultado{
+  background-color: white;
+  width: 207px;
+  height: 30px;
+  margin: 5px;
+  font-size: 25px;
+  color: #000000;
+  text-align: right;
+  padding: 2px;
+
+
+}
 .botao{
   width: 50px;
   height: 50px;
+  margin: 1px;
   font-size: 25px;
   cursor: pointer;
   background-color: #1f1f1f;
@@ -36,6 +50,7 @@
 .botao-igual{
   width: 50px;
   height: 106px;
+  margin: 1px;
   font-size: 25px;
   cursor: pointer;
   background-color: #1f1f1f;
@@ -50,6 +65,7 @@
 .botao-zero{
   width: 106px;
   height: 50px;
+  margin: 1px;
   font-size: 25px;
   cursor: pointer;
   background-color: #1f1f1f;
